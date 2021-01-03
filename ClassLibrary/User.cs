@@ -4,7 +4,18 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    class User
-    {
+    public class User
+    {   string phoneNumber { get; set; }
+        string userName { get; set; }
+        public void createUSerGroup()
+        {
+
+        }
+
+        
+        public void manageAccount()
+        {
+
+        }
     }
 }

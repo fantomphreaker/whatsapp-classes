@@ -6,10 +6,16 @@ namespace ClassLibrary
 {
     public class Settings
     {
-        public void changeNumber()
+        public void changeNumber(string phoneNumber)
         {
 
         }
+
+        public void profileSettings()
+        {
+
+        }
+
 
         public void deleteAccount()
         {
