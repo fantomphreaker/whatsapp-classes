@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    class Chats
+    public class Chats
     {
         string message;
         string chatHistory;
@@ -34,6 +34,12 @@ namespace ClassLibrary
 
         }
 
+        public void deleteMessage()
+        {
+
+        }
+
+       
        
     }
 }

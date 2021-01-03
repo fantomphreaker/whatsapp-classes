@@ -20,12 +20,12 @@ namespace ClassLibrary
             
         }
 
-      public void modifyLastSeen()
+        public void modifyLastSeen()
         {
             isLastSeenVisible = true;
         }
       
-      public void modifyReadReceipts()
+       public void modifyReadReceipts()
         {
             isReadReceiptsOn = true;
         }
