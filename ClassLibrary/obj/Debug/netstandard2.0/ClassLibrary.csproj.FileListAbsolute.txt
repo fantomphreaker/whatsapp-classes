@@ -1,0 +1,4 @@
+E:\Assignments\Assignment 1\WhatsApp\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csprojAssemblyReference.cache
+E:\Assignments\Assignment 1\WhatsApp\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfoInputs.cache
+E:\Assignments\Assignment 1\WhatsApp\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.AssemblyInfo.cs
+E:\Assignments\Assignment 1\WhatsApp\ClassLibrary\obj\Debug\netstandard2.0\ClassLibrary.csproj.CoreCompileInputs.cache
