@@ -6,5 +6,34 @@ namespace ClassLibrary
 {
     class Chats
     {
+        string message;
+        string chatHistory;
+
+        public void sendText()
+        {
+
+        }
+
+        public void sendImage()
+        {
+
+        }
+
+        public void sendVideo()
+        {
+
+        }
+
+        public void sendDocuments()
+        {
+
+        }
+
+        public void sendAudio()
+        {
+
+        }
+
+       
     }
 }

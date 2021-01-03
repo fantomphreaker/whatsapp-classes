@@ -4,20 +4,13 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    class Contacts
+    public class Contacts
     {
-        string phoneNumber { get; set; }
-        string contactName { get; set; }
+        private string contactName;
+        private string contactPhoneNumber;
+        private string contactAbout;
+        Chats pChat = new Chats();
 
-        void viewProfile()
-        {
-            //show profile details such as Profile picture, About, Phone number
-        }
-
-        void viewProfilePicture()
-        {
-            //shows profile picture of contact
-        }
-
+        
     }
 }

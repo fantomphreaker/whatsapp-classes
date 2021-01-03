@@ -6,35 +6,45 @@ namespace ClassLibrary
 {
     public class Settings
     {
-        public void changeNumber(string phoneNumber)
+       private bool isLastSeenVisible;
+       private bool isReadReceiptsOn;
+       static User user; //supports only one user account per app. 
+       public void createUser(string name, string phonenumber, string about)
         {
+            user = new User(name, phonenumber, about);
 
         }
 
-        public void profileSettings()
+        public void modifyPrivacySettings()
         {
+            
+        }
 
+      public void modifyLastSeen()
+        {
+            isLastSeenVisible = true;
+        }
+      
+      public void modifyReadReceipts()
+        {
+            isReadReceiptsOn = true;
+        }
+
+      public void editProfilePicture()
+        {
+            //code to edit or remove profile picture
+        }
+
+      public void changeNumber(string newNumber)
+        {
+            user.setPhoneNumber(newNumber);
+        }
+
+      public void deleteAccount()
+        {
+            
         }
 
 
-        public void deleteAccount()
-        {
-
-        }
-
-        public void modifyPrivacySetting()
-        {
-
-        }
-
-        public void editProfilePicture()
-        {
-
-        }
-
-        public void editDisplayStatus()
-        {
-
-        }
     }
 }
