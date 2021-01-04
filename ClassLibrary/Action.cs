@@ -6,8 +6,8 @@ namespace ClassLibrary
 {
     public class Action
     {   
-       List<Contacts> contacts = new List<Contacts>(); //multiple contacts selected to be added to a group or broadcast is stored in this list
-       Groups group; //group is created only after valid members are selected from the contacts.
+       private List<Contacts> contacts = new List<Contacts>(); //multiple contacts selected to be added to a group or broadcast is stored in this list
+       private Groups group; //group is created only after valid members are selected from the contacts.
        public void createNewGroup()
         {
             addMembers();// invokes method to add members(contacts) to the group
