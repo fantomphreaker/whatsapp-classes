@@ -6,13 +6,13 @@ namespace ClassLibrary
 {
     public class Action
     {   
-       List<Contacts> contacts = new List<Contacts>();
-       Groups group;
+       List<Contacts> contacts = new List<Contacts>(); //multiple contacts selected to be added to a group or broadcast is stored in this list
+       Groups group; //group is created only after valid members are selected from the contacts.
        public void createNewGroup()
         {
             addMembers();// invokes method to add members(contacts) to the group
             string name = editGroupName(); // invokes method to set/edit group name.
-            group = new Groups(contacts, name); //creates group 
+            group = new Groups(contacts, name); //creates group with  selected contacts as its members.
 
         }
 

@@ -58,5 +58,17 @@ namespace ClassLibrary
         {
             //code to view document file in chat.
         }
+
+        public void recordAudio()
+        {
+            //code that records video using device's microphone before staging it to send as an audio message.
+        }
+
+        public void recordVideo()
+        {
+           //code that records video using device's camera before staging it to send as a video message.
+        }
+
+      
     }
 }

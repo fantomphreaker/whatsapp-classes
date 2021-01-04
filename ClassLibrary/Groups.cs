@@ -82,6 +82,16 @@ namespace ClassLibrary
             //code to view document file message in group chat.
         }
 
+        public new void recordAudio()
+        {
+            //code that records audio using device's microphone to send as an audiomessage(file) to the group chat.
+        }
+
+        public new void recordVideo()
+        {
+            //code that records video using device's camera to send as a video message(file) to the group chat.
+        }
+
 
     }
 }

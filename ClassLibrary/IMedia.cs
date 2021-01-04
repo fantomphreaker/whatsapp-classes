@@ -11,5 +11,10 @@ namespace ClassLibrary
       void viewImage();
       void viewDocument();
 
+      void recordAudio();
+      void recordVideo();
+
+
+    
     }
 }

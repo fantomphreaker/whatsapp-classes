@@ -24,24 +24,24 @@ namespace ClassLibrary
             }
             else
             {
-                
+                //phone number is not a valid phone number. Cannot create user profile.
             }
 
         }
 
         public void modifyPrivacySettings()
         {
-            
+            //code that modifies privacy settings of the user
         }
 
         public void modifyLastSeen()
         {
-           
+           //code that modifies 'last seen' of the user
         }
       
        public void modifyReadReceipts()
         {
-            
+            //code that modifies 'read receipts' of the user
         }
 
       public void editProfilePicture()
@@ -57,7 +57,7 @@ namespace ClassLibrary
             }
             else
             {
-                //body that executes when the number is not valid
+                //body that executes when the new phone number is not valid
             }
             
         }
