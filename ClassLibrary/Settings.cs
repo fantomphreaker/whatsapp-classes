@@ -7,7 +7,7 @@ namespace ClassLibrary
     public class Settings
     {
       
-       public static User user; //supports only one user account per app. 
+       static User user; //supports only one user account per app. 
 
         public bool verifyPhoneNumber()
         {   //code to verify that the user's phone number is valid. giving placeholder as 'true' for now.
