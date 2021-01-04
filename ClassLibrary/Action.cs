@@ -5,8 +5,9 @@ using System.Text;
 namespace ClassLibrary
 {
     public class Action
-    {   List<Contacts> contacts = new List<Contacts>();
-        Groups group;
+    {   
+       List<Contacts> contacts = new List<Contacts>();
+       Groups group;
        public void createNewGroup()
         {
             addMembers();// invokes method to add members(contacts) to the group

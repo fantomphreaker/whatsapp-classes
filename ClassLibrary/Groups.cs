@@ -62,5 +62,26 @@ namespace ClassLibrary
             //adminList.Add(members[i])
         }
 
+        public new void playAudio()
+        {
+            //code that plays audio in group chat
+        }
+
+        public new void playVideo()
+        {
+            //code that plays video messages in group chat
+        }
+
+        public new void viewImage()
+        {
+            //code to view image file messages in group chat
+        }
+
+        public new void viewDocument()
+        {
+            //code to view document file message in group chat.
+        }
+
+
     }
 }

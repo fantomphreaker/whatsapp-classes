@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    public class Chats
+    public class Chats: IMedia
     {
         string message; //message to be sent
         string chatHistory; //chat history that has all the conversation in text along with the date and time.
@@ -39,9 +39,24 @@ namespace ClassLibrary
             //code that deletes Message(s) from chat
         }
 
-        
+        public void playAudio()
+        {
+            //code that plays audio messages in chat
+        }
 
-       
-       
+        public void playVideo()
+        {
+            //code that plays video messages in chat
+        }
+
+        public void viewImage()
+        {
+            //code to view image messages in chat
+        }
+
+        public void viewDocument()
+        {
+            //code to view document file in chat.
+        }
     }
 }
