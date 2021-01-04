@@ -9,8 +9,8 @@ namespace ClassLibrary
         private string contactName;
         private string contactPhoneNumber;
         private string contactAbout;
-        Chats pChat = new Chats();
-
+        Chats pChat = new Chats(); //There is a chat per contact
+        
 
         
     }

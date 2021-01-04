@@ -32,7 +32,7 @@ namespace ClassLibrary
 
         public string editGroupName() //method to edit group name
         {
-            return "groupname";
+            return "groupname"; //returns a placeholder
         }
     }
 }
