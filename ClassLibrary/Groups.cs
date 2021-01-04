@@ -25,5 +25,36 @@ namespace ClassLibrary
         {
 
         }
+
+        public override void sendText()
+        {
+
+        }
+
+        public override void sendImage()
+        {
+
+        }
+
+        public override void sendVideo()
+        {
+
+        }
+
+        public override void sendDocuments()
+        {
+
+        }
+
+        public override void sendAudio()
+        {
+
+        }
+
+        public override void deleteMessage()
+        {
+
+        }
+
     }
 }

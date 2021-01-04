@@ -49,12 +49,20 @@ namespace ClassLibrary
             //code to edit or remove profile picture
         }
 
-      public void changeNumber(string newNumber)
+      public void changeNumber(string newNumber) //method to change phone number
         {
-            user.setPhoneNumber(newNumber);
+            if (verifyPhoneNumber())
+            {
+                user.setPhoneNumber(newNumber); //sets phone number to a new valid phone number
+            }
+            else
+            {
+                //body that executes when the number is not valid
+            }
+            
         }
 
-      public void deleteAccount()
+      public void deleteAccount() //method to delete account
         {
             
         }
