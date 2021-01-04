@@ -9,18 +9,30 @@ namespace ClassLibrary
         Groups group;
        public void createNewGroup()
         {
-            group = new Groups(contacts);
+            addMembers();// invokes method to add members(contacts) to the group
+            string name = editGroupName(); // invokes method to set/edit group name.
+            group = new Groups(contacts, name); //creates group 
 
         }
 
-       public void createBroadcast()
+       public void createBroadcast() //method to create a broadcast message
         {
 
         }
 
-        public void deleteChat()
+        public void deleteChat() //method to delete chat
         {
 
+        }
+
+        public void addMembers() //method to add members to contacts
+        {
+            
+        }
+
+        public string editGroupName() //method to edit group name
+        {
+            return "groupname";
         }
     }
 }

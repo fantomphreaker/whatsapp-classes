@@ -10,7 +10,7 @@ namespace ClassLibrary
         private string phoneNumber; //Phone number of the user
         private string about; //'About' section of user profile
 
-        public User(string name, string phoneNumber, string about)
+        public User(string name, string phoneNumber, string about) //constructor for a user object instantiation
         {
             this.name = name;
             this.phoneNumber = phoneNumber;
@@ -31,7 +31,7 @@ namespace ClassLibrary
             this.about = about;
         }
 
-        public void editProfilePicture()
+        public void editProfilePicture() //method to add/remove or change profile picture
         {
 
         }

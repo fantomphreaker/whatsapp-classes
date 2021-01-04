@@ -9,32 +9,32 @@ namespace ClassLibrary
         string message;
         string chatHistory;
 
-        public void sendText()
+        public virtual void sendText()
         {
 
         }
 
-        public void sendImage()
+        public virtual void sendImage()
         {
 
         }
 
-        public void sendVideo()
+        public virtual void sendVideo()
         {
 
         }
 
-        public void sendDocuments()
+        public virtual void sendDocuments()
         {
 
         }
 
-        public void sendAudio()
+        public virtual void sendAudio()
         {
 
         }
 
-        public void deleteMessage()
+        public virtual void deleteMessage()
         {
 
         }

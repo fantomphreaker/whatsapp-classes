@@ -7,10 +7,23 @@ namespace ClassLibrary
     public class Groups : Chats
     {
         private List<Contacts> members = new List<Contacts>();
+        string groupName;
+        
 
-        Groups(List<Contacts> members)
+        public Groups(List<Contacts> members, string name)
         {
             this.members = members;
+            this.groupName = name;
+        }
+
+        public void changeGroupIcon()
+        {
+
+        }
+
+        public void changeGroupName()
+        {
+
         }
     }
 }
