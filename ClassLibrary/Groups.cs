@@ -4,14 +4,14 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    public class Groups : Chats
+    public class GroupChat : Chats
     {
         private List<Contacts> members = new List<Contacts>(); //stores list of group members
         private string groupName; //name of the group
         private List<string> adminList = new List<string>() { "user" }; // user will be the default admin of the group
         
 
-        public Groups(List<Contacts> members, string name)
+        public GroupChat(List<Contacts> members, string name)
         {
             this.members = members;
             this.groupName = name;

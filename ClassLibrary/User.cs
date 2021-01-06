@@ -6,7 +6,7 @@ namespace ClassLibrary
 {
     public class User
     {
-        private string name;//Name of the user
+        private string name; //Name of the user
         private string phoneNumber; //Phone number of the user
         private string about; //'About' section of user profile
 
